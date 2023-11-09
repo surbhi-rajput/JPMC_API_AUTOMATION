@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\surbhi\automation POC\JPMC_API_AUTOMATION\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search users working in the given company&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search users working in the given company", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search and count the comments present on a particular post&quot;, &quot;Comme...)">runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user is able to search all the posts created by a particular user&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search the post by title&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that the user is able to search the post by title", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search and count the comments present on a particular post&quot;, &quot;Comme...)">runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the creation of a new post&quot;, &quot;List of Posts API&quot;)">runScenario("Verify the creation of a new post", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user is able to update the existing post&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that user is able to update the existing post", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user is able to search all the posts created by a particular user&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search the post by title&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that the user is able to search the post by title", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user is able to delete the existing post&quot;, &quot;List of Posts API&quot;)">runScenario("Verify that user is able to delete the existing post", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search and count the comments posted by a particular emailId&quot;, &quot;Com...)">runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the retrival of list of users&quot;, &quot;List of Users API&quot;)">runScenario("Verify the retrival of list of users", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search users living in a given city&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search users living in a given city", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the retrival of List of Posts&quot;, &quot;List of Posts API&quot;)">runScenario("Verify the retrival of List of Posts", "List of Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the retrival of all comments on all the posts in the social network&quot;, &quot;Comments on Post API&quot;)">runScenario("Verify the retrival of all comments on all the posts in the social network", "Comments on Post API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">runScenario("Verify that we are able to search user", "List of Users API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to search and count the comments posted by a particular emailId&quot;, &quot;Com...)">runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the comments posted by a user having a specified name&quot;, &quot;Comments on Post API&quot;)">runScenario("Verify the comments posted by a user having a specified name", "Comments on Post API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search users working in the given company&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search users working in the given company", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search users working in the given company", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search and count the comments present on a particular post&quot;, &quot;Comme...)">
+                  </a> <!-- runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search and count the comments present on a particular post", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user is able to search all the posts created by a particular user&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search the post by title&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to search the post by title", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search the post by title", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search and count the comments present on a particular post&quot;, &quot;Comme...)">
+                  </a> <!-- runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search and count the comments present on a particular post", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the creation of a new post&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify the creation of a new post", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the creation of a new post", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user is able to update the existing post&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that user is able to update the existing post", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user is able to update the existing post", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user is able to search all the posts created by a particular user&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search the post by title&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to search the post by title", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search the post by title", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user is able to delete the existing post&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify that user is able to delete the existing post", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user is able to delete the existing post", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search and count the comments posted by a particular emailId&quot;, &quot;Com...)">
+                  </a> <!-- runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search and count the comments posted by a particular emailId", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the retrival of list of users&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify the retrival of list of users", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the retrival of list of users", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search users living in a given city&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search users living in a given city", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search users living in a given city", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the retrival of List of Posts&quot;, &quot;List of Posts API&quot;)">
+                  </a> <!-- runScenario("Verify the retrival of List of Posts", "List of Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the retrival of List of Posts", "List of Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the retrival of all comments on all the posts in the social network&quot;, &quot;Comments on Post API&quot;)">
+                  </a> <!-- runScenario("Verify the retrival of all comments on all the posts in the social network", "Comments on Post API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the retrival of all comments on all the posts in the social network", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that we are able to search user&quot;, &quot;List of Users API&quot;)">
+                  </a> <!-- runScenario("Verify that we are able to search user", "List of Users API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that we are able to search user", "List of Users API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to search and count the comments posted by a particular emailId&quot;, &quot;Com...)">
+                  </a> <!-- runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to search and count the comments posted by a particular emailId", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify the comments posted by a user having a specified name&quot;, &quot;Comments on Post API&quot;)">
+                  </a> <!-- runScenario("Verify the comments posted by a user having a specified name", "Comments on Post API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify the comments posted by a user having a specified name", "Comments on Post API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\surbhi\automation POC\JPMC_API_AUTOMATION\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;API Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 2742);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 2742);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 2698);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 2694);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 2659);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 2538);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 2538);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 2537);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 2537);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 2537);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 1412);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 1315);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 1069);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.TestRunner')
+data.setCell(13, 3, 1063);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.TestRunner')
+data.setCell(14, 3, 1033);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.TestRunner')
+data.setCell(15, 3, 1030);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.TestRunner')
+data.setCell(16, 3, 989);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runner.TestRunner')
+data.setCell(17, 3, 985);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runner.TestRunner')
+data.setCell(18, 3, 983);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runner.TestRunner')
+data.setCell(19, 3, 467);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runner.TestRunner')
+data.setCell(20, 3, 229);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runner.TestRunner')
+data.setCell(21, 3, 210);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runner.TestRunner')
+data.setCell(22, 3, 204);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@5e0e82ae)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search the post by title", "List of Posts API")</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...)</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the retrival of List of Posts", "List of Posts API")</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...)</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search and count the comments present on a particular post", "Comme...)</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that user is able to search all the posts created by a particular user", "List of Posts API")</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search and count the comments posted by a particular emailId", "Com...)</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the comments posted by a user having a specified name", "Comments on Post API")</span>
+                <span class="method-start">525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the retrival of all comments on all the posts in the social network", "Comments on Post API")</span>
+                <span class="method-start">526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the creation of a new post", "List of Posts API")</span>
+                <span class="method-start">3066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that the user is able to search the post by title", "List of Posts API")</span>
+                <span class="method-start">3066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that user is able to update the existing post", "List of Posts API")</span>
+                <span class="method-start">3066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that user is able to delete the existing post", "List of Posts API")</span>
+                <span class="method-start">3067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify the retrival of list of users", "List of Users API")</span>
+                <span class="method-start">3068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search user", "List of Users API")</span>
+                <span class="method-start">3279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search users living in a given city", "List of Users API")</span>
+                <span class="method-start">3297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify that we are able to search users working in the given company", "List of Users API")</span>
+                <span class="method-start">3484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">4480 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
